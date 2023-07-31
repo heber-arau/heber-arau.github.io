@@ -1,0 +1,145 @@
+$bg-color: deepskyblue;
+
+.nav {
+    display: flex;
+    width: 100%;
+    background-color: $bg-color;
+}
+
+.nav li {
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    list-style: none;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+.banner {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: $bg-color;
+    color: black;
+    text-align: left;
+    padding: 100px 10px 100px 10px;
+}
+
+.name{
+    width: 40%;
+}
+
+.headshot{
+    border: 20px solid black;
+    border-radius: 20%;
+}
+
+.icons{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 50px;
+}
+
+.fa-brands , .fa-regular, .fa-envelope, .fa-solid{
+    font-size: 40px;
+    color: black;
+}
+
+.portfolio-block {
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    margin: auto;
+    margin-top: 20px;
+    color: black;
+}
+
+.left {
+    width: 20%;
+    background-color: $bg-color;
+    padding: 50px;
+    border-radius: 25px 0px 0px 25px;
+}
+.right{
+    width: 80%;
+    padding-left: 30px;
+    text-align: left;
+    border-radius: 0px 25px 25px 0px;
+    background-color: grey;
+}
+
+    h1, h2, h3 {
+text-align: center;
+font-size: 30px;
+}
+
+p {
+    font-size: 20px;
+}
+
+.skills-container{
+    width: 80%;
+    margin: auto;
+    box-shadow:0 20px 40px $bg-color;
+}
+
+.tabs {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+
+h3 {
+    background-color: $bg-color;
+    color: black;
+    text-align: center;
+    padding: 20px;
+}
+.tab content {
+    padding: 0px 10px 10px 50px;
+    text-align: left;
+}
+
+.tab-content div{
+    display: none;
+}
+
+.tab-content .active {
+    display: block;
+}
+
+.tab .active {
+    background-color: black;
+    color: $bg-color;
+}
+
+.Programs {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px 20px;
+    justify-content: center;
+    padding: 60px;
+    gap: 40px;
+}
+
+.goto {
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    background-color: none;
+    bottom: 40px;
+    right: 50px;
+    text-decoration: none;
+    text-align: center;
+    line-height: 50px;
+    color: $bg-color;
+    font-size: 50px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
